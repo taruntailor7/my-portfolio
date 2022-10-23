@@ -1,0 +1,17 @@
+/* .banner{
+    width: 100%;
+    background:linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url("https://cdn.wallpapersafari.com/50/79/X2C4Ke.jpg");
+} */
+.hover-1 {
+    background: 
+        linear-gradient(yellow 0 0) no-repeat
+        calc(200% - var(--i, 0) * 100%) 100% / 200% calc(100% * var(--i, 0) + .08em);
+    transition: .3s calc(var(--i, 0) * .3s), background-position .3s calc(.3s - calc(var(--i, 0) * .3s));
+}
+.hover-1:hover {
+    --i: 1;
+}
+.instagram:hover{
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
