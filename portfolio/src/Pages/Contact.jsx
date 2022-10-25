@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Contact = () => {
   return (
-    <Box w="100%" py="70px" bg="#f0f0f0">
+    <Box w="100%" py="70px" bg="#f0f0f0" id="contact">
         <Box textAlign="center" id="about">
           <Heading mb={10}>CONTACT</Heading>
           <Box marginTop="10px" margin="auto" bg="#f9ce0f" w="50px" h="4px" borderRadius="10px"></Box>
