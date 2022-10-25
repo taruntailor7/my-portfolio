@@ -23,6 +23,32 @@ export const Projects = () => {
             </Box>
           </Box>
         </Box>
+        <Box w="90%" display="flex" justifyContent="space-between" margin="auto" mt="100px">
+          <Box w="45%" p={5} boxShadow='lg' borderRadius="20px">
+            <Image src={boatImg} alt=""/>
+          </Box>
+          <Box w="50%">
+            <Heading>boAt-lifestyle</Heading>
+            <Text w="70%" mt={7} fontSize="18px">Yubter is a platform that I created where people can join the community of their favorite youtube channels and can be part of the conversation.</Text>
+            <Box w="35%" mt={10} display="flex" justifyContent="space-between">
+              <Button bg="#facf0f" colorScheme="#facf0f" color="black">Live Link</Button>
+              <Button bg="#facf0f" colorScheme="#facf0f" color="black">GitHub Link</Button>
+            </Box>
+          </Box>
+        </Box>
+        <Box w="90%" display="flex" justifyContent="space-between" margin="auto" mt="100px">
+          <Box w="45%" p={5} boxShadow='lg' borderRadius="20px">
+            <Image src={boatImg} alt=""/>
+          </Box>
+          <Box w="50%">
+            <Heading>boAt-lifestyle</Heading>
+            <Text w="70%" mt={7} fontSize="18px">Yubter is a platform that I created where people can join the community of their favorite youtube channels and can be part of the conversation.</Text>
+            <Box w="35%" mt={10} display="flex" justifyContent="space-between">
+              <Button bg="#facf0f" colorScheme="#facf0f" color="black">Live Link</Button>
+              <Button bg="#facf0f" colorScheme="#facf0f" color="black">GitHub Link</Button>
+            </Box>
+          </Box>
+        </Box>
     </Box>
   )
 }

@@ -3,6 +3,7 @@ import './App.css';
 import { Navbar } from './Components/Navbar';
 import { About } from './Pages/About';
 import { Banner } from './Pages/Banner';
+import { Contact } from './Pages/Contact';
 import { Projects } from './Pages/Projects';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Banner />
       <About />
       <Projects />
+      <Contact />
     </>
   );
 }
