@@ -70,6 +70,7 @@
   transform: translate(-50%, -50%);
   /* background: #fff; */
   border-radius: 10px;
+  margin-top: -80px;
 }
 
 /* .skills-bar {
@@ -185,12 +186,38 @@
 
 /* ////........Media Query........//// */
 
-@media (max-width: 700px) {
-    .skills{
-        width: 80%;
-    }
 
-    .skills-bar .bar .progress-line{
-        width: 100%;
-    }
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: black;
 }
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:#facf0f;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+  @media (max-width: 800px) {
+      .skills{
+          width: 80%;
+          top: 250px;
+      }
+  
+      .skills-bar .bar .progress-line{
+          width: 100%;
+      }
+  }
