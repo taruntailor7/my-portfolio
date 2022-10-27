@@ -24,7 +24,7 @@ export const About = () => {
         <Box textAlign="center" id="about">
           <Heading mb={10}>ABOUT ME</Heading>
           <Box marginTop="10px" margin="auto" bg="#f9ce0f" w="50px" h="4px" borderRadius="10px"></Box>
-          <Text w="50%" margin="auto" mt={7} fontSize="20px">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</Text>
+          <Text w={{base:"",sm:"",md:"85%",lg:"50%"}} margin="auto" mt={7} fontSize="20px">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</Text>
         </Box>
         <Box w="85%" data-aos="zoom-in-up" display={{base:"",sm:"",md:"block",lg:"flex"}} justifyContent="space-between" margin="auto" mt="100px" >
             <Box w={{base:"",sm:"",md:"100%",lg:"45%"}} textAlign="center">
@@ -34,8 +34,8 @@ export const About = () => {
                 I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
               </Text>
               <Box w="95%" display="flex" justifyContent="space-between">
-                <Button onClick={onButtonClick} mt={10} bg="#facf0f" colorScheme="#facf0f" px="70px" py={7} color="black" fontWeight="bold">Download Resume</Button>
-                <Link to="contact" spy={true} smooth={true} offset={50} duration={500}><Button mt={10} bg="#facf0f" colorScheme="#facf0f" px="70px" py={7} color="black" fontWeight="bold">CONTACT</Button></Link>
+                <Button onClick={onButtonClick} mt={10} bg="#facf0f" colorScheme="#facf0f" px={{base:"30px",sm:"30px",md:"60px",lg:"70px"}} py={7} color="black" fontWeight="bold">Download Resume</Button>
+                <Link to="contact" spy={true} smooth={true} offset={50} duration={500}><Button mt={10} bg="#facf0f" colorScheme="#facf0f" px={{base:"30px",sm:"30px",md:"60px",lg:"70px"}} py={7} color="black" fontWeight="bold">CONTACT</Button></Link>
               </Box>
             </Box>
             <Box w={{base:"",sm:"",md:"100%",lg:"45%"}}>

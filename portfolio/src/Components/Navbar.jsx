@@ -3,7 +3,7 @@ import { Box, Text } from '@chakra-ui/react'
 import {NavLink} from 'react-router-dom'
 import {Link} from 'react-scroll'
 import { useMediaQuery } from '@chakra-ui/react'
-import { RiMenu3Fill } from 'react-icons/ri';
+import { DraweronTab } from '../Pages/Drawer'
 
 
 export const Navbar = () => {
@@ -42,7 +42,10 @@ export const Navbar = () => {
                     </Box>
                 </Box> : <Box w="100%" fontSize="25px" display="flex" p="5" justifyContent="space-between" alignItems="center" margin="auto">
                         <Link to="banner" spy={true} smooth={true} offset={50} duration={500}><Text className="navlink" _hover={{color:"#facf0f"}}><NavLink>TARUN TAILOR</NavLink></Text></Link>
-                        <Box><RiMenu3Fill /></Box>
+                        <Box>
+                            {/* <RiMenu3Fill /> */}
+                            <DraweronTab     />
+                        </Box>
                 </Box> }    
         </>
     )

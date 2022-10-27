@@ -7,7 +7,7 @@ export const Contact = () => {
         <Box textAlign="center" id="about">
           <Heading mb={10}>CONTACT</Heading>
           <Box marginTop="10px" margin="auto" bg="#f9ce0f" w="50px" h="4px" borderRadius="10px"></Box>
-          <Text w="50%" margin="auto" mt={7} fontSize="20px">Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</Text>
+          <Text w={{base:"",sm:"",md:"85%",lg:"50%"}}  margin="auto" mt={7} fontSize="20px">Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</Text>
         </Box>
         <Box w={{base:"",sm:"",md:"80%",lg:"50%"}} data-aos="flip-left" p={10} margin="auto" bg="#ffffff" borderRadius="5px" mt="100px">
             <form>
