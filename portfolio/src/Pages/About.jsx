@@ -29,7 +29,7 @@ export const About = () => {
         <Box w="85%" data-aos="zoom-in-up" display={{base:"",sm:"",md:"block",lg:"flex"}} justifyContent="space-between" margin="auto" mt="100px" >
             <Box w={{base:"",sm:"",md:"100%",lg:"45%"}} textAlign="center">
               <Text fontSize="25px" fontWeight="bold">Get to know me!</Text>
-              <Text  w="95%" fontSize="20px" textAlign="justify" mt={5}>I'm a Frontend Web Developer building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section. <br />
+              <Text  w="95%" fontSize="20px" textAlign="justify" mt={5}>I'm a Fullstack Web Developer building the Front-end, Backend of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section. <br />
                 I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin where I post useful content related to Web Development and Programming
                 I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
               </Text>

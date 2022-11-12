@@ -17,7 +17,9 @@ export const Projects = () => {
           </Box>
           <Box w={{base:"",sm:"",md:"100%",lg:"50%"}} mt={{base:"",sm:"",md:"30px",lg:""}} data-aos="fade-left">
             <Heading>boAt-lifestyle</Heading>
-            <Text w={{base:"100%",sm:"",md:"70%",lg:"70%"}} mt={7} fontSize="18px">Regarding boAt</Text>
+            <Text w={{base:"100%",sm:"",md:"70%",lg:"70%"}} mt={7} fontSize="18px">
+            Clone of India's leading Wide range of electronic gadgets brand. A team project completed within 5 days with simple,well defined navigation.
+            </Text>
             <Box w={{base:"60%",sm:"",md:"35%",lg:"35%"}} mt={10} display="flex" justifyContent="space-between">
               <a href="https://clone-boat-lifestyle.netlify.app/" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">Live Link</Button></a>
               <a href="https://github.com/taruntailor7/boat-lifestyle-clone" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">GitHub Link</Button></a>
@@ -30,7 +32,9 @@ export const Projects = () => {
           </Box>
           <Box w={{base:"",sm:"",md:"100%",lg:"50%"}} mt={{base:"",sm:"",md:"30px",lg:""}} data-aos="fade-left">
             <Heading>Nifty</Heading>
-            <Text w={{base:"100%",sm:"",md:"70%",lg:"70%"}} mt={7} fontSize="18px">Regarding Nifty</Text>
+            <Text w={{base:"100%",sm:"",md:"70%",lg:"70%"}} mt={7} fontSize="18px">Clone of Nifty PM which is a workflow collaboration tool that aligns project teams, accelerates project cycles and automates progress reporting. <br />
+            Nifty’s project management functionality is anchored on core features that include project tracking, support for collaboration, and a centralized workspace.
+            </Text>
             <Box w={{base:"60%",sm:"",md:"35%",lg:"35%"}} mt={10} display="flex" justifyContent="space-between">
               <a href="https://nifty-clone.netlify.app/" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">Live Link</Button></a>
               <a href="https://github.com/taruntailor7/nifty-clone" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">GitHub Link</Button></a>
@@ -43,7 +47,9 @@ export const Projects = () => {
           </Box>
           <Box w={{base:"",sm:"",md:"100%",lg:"50%"}} mt={{base:"",sm:"",md:"30px",lg:""}} data-aos="fade-left">
             <Heading>FRAAZO</Heading>
-            <Text w={{base:"100%",sm:"",md:"70%",lg:"70%"}} mt={7} fontSize="18px">Regarding Fraazo</Text>
+            <Text w={{base:"100%",sm:"",md:"70%",lg:"70%"}} mt={7} fontSize="18px">
+            Clone of India’s largest quick commerce start-ups on a mission to provide every Indian household farm-fresh fruits and vegetables daily, ordered from the convenience of their homes.
+            </Text>
             <Box w={{base:"60%",sm:"",md:"35%",lg:"35%"}} mt={10} display="flex" justifyContent="space-between">
               <a href="https://clone-fraazo.netlify.app/" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">Live Link</Button></a>
               <a href="https://github.com/taruntailor7/fraazo-clone" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">GitHub Link</Button></a>
