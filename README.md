@@ -1,2 +1,2 @@
 # my-portfolio
-Deploed Link  : https://taruntailor.netlify.app/
+Deployed Link  : https://taruntailor.netlify.app/
