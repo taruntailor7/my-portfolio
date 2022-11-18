@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Text } from '@chakra-ui/react'
+import { Box, Image, Text } from '@chakra-ui/react'
 import {NavLink} from 'react-router-dom'
 import {Link} from 'react-scroll'
 import { useMediaQuery } from '@chakra-ui/react'
@@ -30,8 +30,9 @@ export const Navbar = () => {
         <>
         { isLargerThan769 ? <Box position="fixed" top="0" width="100%" bg="white" zIndex="1000" id="navbar">
                     <Box w="90%" margin="auto" display="flex" justifyContent="space-between" p={6}>
-                        <Box w="10%"    >
+                        <Box w="30%" display="flex">
                             {/* <Box></Box> */}
+                            <Image boxShadow='inner' w="50px" h="50px" mt="-15px" mr="10px" borderRadius="50%" src="https://avatars.githubusercontent.com/u/66818449?v=4" />
                             <Link to="banner" spy={true} smooth={true} offset={50} duration={500}><Text className="navlink" _hover={{color:"#facf0f"}}><NavLink>TARUN TAILOR</NavLink></Text></Link>
                         </Box>
                         <Box w="33%" display="flex" justifyContent="space-between">

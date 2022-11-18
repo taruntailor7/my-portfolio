@@ -67,10 +67,11 @@
   position: relative;
   top: 50%;
   left: 50%;
+  /* border: 1px solid black; */
   transform: translate(-50%, -50%);
   /* background: #fff; */
   border-radius: 10px;
-  margin-top: -80px;
+  margin-top: -25px;
 }
 
 /* .skills-bar {
@@ -111,6 +112,8 @@
   transform-origin: left;
   text-transform: uppercase;
   animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  /* border: 1px solid black;cd  */
+  
 }
 
 @keyframes animate {
