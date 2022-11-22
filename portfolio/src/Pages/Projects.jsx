@@ -44,17 +44,17 @@ export const Projects = () => {
         </Box>
         <Box w="90%" display={{base:"",sm:"",md:"block",lg:"flex"}} justifyContent="space-between" margin="auto" mt="100px">
           <Box w={{base:"",sm:"",md:"100%",lg:"45%"}} data-aos="fade-right" data-aos-duration="1000" p={5} boxShadow='lg' borderRadius="20px">
-            <Image src="https://github.com/taruntailor7/fraazo-clone/raw/main/IMAGE/Screenshot%20(638).png" alt=""/>
+            <Image src="https://user-images.githubusercontent.com/66818449/203419256-07d0ce65-a0ed-492f-b990-15f0e37e1bf9.png" alt=""/>
           </Box>
           <Box w={{base:"",sm:"",md:"100%",lg:"50%"}} mt={{base:"",sm:"",md:"30px",lg:""}} data-aos="fade-left" data-aos-duration="1000">
-            <Heading>FRAAZO</Heading>
+            <Heading>Great Learning</Heading>
             <Text w={{base:"100%",sm:"",md:"70%",lg:"70%"}} mt={7} fontSize="18px">
-            Clone of India’s largest quick commerce start-ups on a mission to provide every Indian household farm-fresh fruits and vegetables daily, ordered from the convenience of their homes.
+            As India’s largest professional learning company and a global footprint in 170+ countries, we’re on a mission to make professionals around the globe proficient and future-ready.
             </Text>
-            <Text mt="5"><b> Tech Stack : HTML, CSS and Vanilla Javascript. </b></Text>
+            <Text mt="5"><b> Tech Stack : HTML, CSS, Vanilla Javascript, ES-6 and JSON- Server. </b></Text>
             <Box w={{base:"90%",sm:"",md:"65%",lg:"60%"}} mt={10} display="flex" justifyContent="space-between">
-              <a href="https://clone-fraazo.netlify.app/" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">Live Link</Button></a>
-              <a href="https://github.com/taruntailor7/fraazo-clone" target="blank"><Button bg="#238636" colorScheme="#238636" color="white">GitHub Link</Button></a>
+              <a href="https://great-learning-clone.netlify.app/" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">Live Link</Button></a>
+              <a href="https://github.com/taruntailor7/great-learning-clone" target="blank"><Button bg="#238636" colorScheme="#238636" color="white">GitHub Link</Button></a>
             </Box>
           </Box>
         </Box>
