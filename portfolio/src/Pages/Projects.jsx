@@ -21,7 +21,7 @@ export const Projects = () => {
             Clone of India's leading Wide range of electronic gadgets brand. A team project completed within 5 days with simple,well defined navigation.
             </Text>
             <Text mt="5"><b> Tech Stack : React JS, Redux, Chakra UI, and Json-Server.</b></Text>
-            <Box w={{base:"60%",sm:"",md:"35%",lg:"35%"}} mt={10} display="flex" justifyContent="space-between">
+            <Box w={{base:"90%",sm:"",md:"65%",lg:"60%"}} mt={10} display="flex" justifyContent="space-between">
               <a href="https://clone-boat-lifestyle.netlify.app/" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">Live Link</Button></a>
               <a href="https://github.com/taruntailor7/boat-lifestyle-clone" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">GitHub Link</Button></a>
             </Box>
@@ -36,7 +36,7 @@ export const Projects = () => {
             <Text w={{base:"100%",sm:"",md:"70%",lg:"70%"}} mt={7} fontSize="18px">Clone of Nifty PM which is a workflow collaboration tool that aligns project teams, accelerates project cycles and automates progress reporting. <br />
             </Text>
             <Text mt="5"><b> Tech Stack : HTML, CSS, Vanilla Javascript, ES-6 and JSON- Server. </b></Text>
-            <Box w={{base:"60%",sm:"",md:"35%",lg:"35%"}} mt={10} display="flex" justifyContent="space-between">
+            <Box w={{base:"90%",sm:"",md:"65%",lg:"60%"}} mt={10} display="flex" justifyContent="space-between">
               <a href="https://nifty-clone.netlify.app/" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">Live Link</Button></a>
               <a href="https://github.com/taruntailor7/nifty-clone" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">GitHub Link</Button></a>
             </Box>
@@ -52,7 +52,7 @@ export const Projects = () => {
             Clone of India’s largest quick commerce start-ups on a mission to provide every Indian household farm-fresh fruits and vegetables daily, ordered from the convenience of their homes.
             </Text>
             <Text mt="5"><b> Tech Stack : HTML, CSS and Vanilla Javascript. </b></Text>
-            <Box w={{base:"60%",sm:"",md:"35%",lg:"35%"}} mt={10} display="flex" justifyContent="space-between">
+            <Box w={{base:"90%",sm:"",md:"65%",lg:"60%"}} mt={10} display="flex" justifyContent="space-between">
               <a href="https://clone-fraazo.netlify.app/" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">Live Link</Button></a>
               <a href="https://github.com/taruntailor7/fraazo-clone" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">GitHub Link</Button></a>
             </Box>
@@ -60,9 +60,9 @@ export const Projects = () => {
         </Box>
         <Box textAlign="center" mt="60px" data-aos="zoom-in-up" data-aos-duration="2000">
           <Heading mb={10}>GITHUB</Heading>
-          <Box display="flex" justifyContent="space-evenly" textAlign="center" w="80%" margin="auto" boxShadow="2xl" p="5" borderRadius="10px">
-            <Image src="https://github-readme-stats.vercel.app/api?username=taruntailor7&count_private=true&show_icons=trueline_height=21&theme=merko" />	
-            <Image src="https://github-readme-streak-stats.herokuapp.com/?user=taruntailor7&theme=merko"/> 
+          <Box w="80%" display="flex" justifyContent="space-evenly" textAlign="center" margin="auto" boxShadow="2xl" p="5" borderRadius="10px">
+            <Image w="50%" src="https://github-readme-stats.vercel.app/api?username=taruntailor7&count_private=true&show_icons=trueline_height=21&theme=merko" />	
+            <Image w="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=taruntailor7&theme=merko"/> 
           </Box>
           <Box textAlign="center" w="80%" margin="auto" boxShadow="2xl" p="5" borderRadius="10px" mt="10" >
             <a target="_black" href="https://github.com/taruntailor7"><Image coloe="white" borderRadius="10px" alt="taruntailor7's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=taruntailor7&custom_title=taruntailor7's%20Contribution%20Graph&theme=merko" /></a>

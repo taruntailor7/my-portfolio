@@ -10,14 +10,14 @@ export const Contact = () => {
           <Text w={{base:"",sm:"",md:"85%",lg:"50%"}}  margin="auto" mt={7} fontSize="20px">Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</Text>
         </Box>
         <Box w={{base:"",sm:"",md:"80%",lg:"50%"}} data-aos="flip-left" p={10} margin="auto" bg="#ffffff" borderRadius="5px" mt="100px">
-            <form>
+            <form >
                 <FormLabel>Name</FormLabel>
                 <Input placeholder='Enter Your Name' bg="#f0f0f0" size='lg' p={4} variant='unstyled' required/>
                 <FormLabel mt={10}>Email</FormLabel>
                 <Input placeholder='Enter Your Email' bg="#f0f0f0" size='lg' p={4} variant='unstyled' required/>
                 <FormLabel mt={10}>Message</FormLabel>
                 <Textarea bg="#f0f0f0" rows={10} placeholder='Enter Your Message' p={5} variant='unstyled' />
-                <Button ml={{base:"",sm:"",md:"395px",lg:"540px"}} type="submit" fontWeight="bold" mt={8} px={10} py={6} bg="#facf0f" colorScheme="#facf0f" color="black">SUBMIT</Button>
+                <Button w="100%" type="submit" fontWeight="bold" mt={8} px={10} py={6} bg="#facf0f" colorScheme="#facf0f" color="black">SUBMIT</Button>
             </form>
         </Box>
     </Box>
