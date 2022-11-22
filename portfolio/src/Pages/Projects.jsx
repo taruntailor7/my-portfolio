@@ -23,7 +23,7 @@ export const Projects = () => {
             <Text mt="5"><b> Tech Stack : React JS, Redux, Chakra UI, and Json-Server.</b></Text>
             <Box w={{base:"90%",sm:"",md:"65%",lg:"60%"}} mt={10} display="flex" justifyContent="space-between">
               <a href="https://clone-boat-lifestyle.netlify.app/" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">Live Link</Button></a>
-              <a href="https://github.com/taruntailor7/boat-lifestyle-clone" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">GitHub Link</Button></a>
+              <a href="https://github.com/taruntailor7/boat-lifestyle-clone" target="blank"><Button bg="#238636" colorScheme="#238636" color="white">GitHub Link</Button></a>
             </Box>
           </Box>
         </Box>
@@ -38,7 +38,7 @@ export const Projects = () => {
             <Text mt="5"><b> Tech Stack : HTML, CSS, Vanilla Javascript, ES-6 and JSON- Server. </b></Text>
             <Box w={{base:"90%",sm:"",md:"65%",lg:"60%"}} mt={10} display="flex" justifyContent="space-between">
               <a href="https://nifty-clone.netlify.app/" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">Live Link</Button></a>
-              <a href="https://github.com/taruntailor7/nifty-clone" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">GitHub Link</Button></a>
+              <a href="https://github.com/taruntailor7/nifty-clone" target="blank"><Button bg="#238636" colorScheme="#238636" color="white">GitHub Link</Button></a>
             </Box>
           </Box>
         </Box>
@@ -54,7 +54,7 @@ export const Projects = () => {
             <Text mt="5"><b> Tech Stack : HTML, CSS and Vanilla Javascript. </b></Text>
             <Box w={{base:"90%",sm:"",md:"65%",lg:"60%"}} mt={10} display="flex" justifyContent="space-between">
               <a href="https://clone-fraazo.netlify.app/" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">Live Link</Button></a>
-              <a href="https://github.com/taruntailor7/fraazo-clone" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">GitHub Link</Button></a>
+              <a href="https://github.com/taruntailor7/fraazo-clone" target="blank"><Button bg="#238636" colorScheme="#238636" color="white">GitHub Link</Button></a>
             </Box>
           </Box>
         </Box>
