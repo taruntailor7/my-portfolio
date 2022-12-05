@@ -64,9 +64,9 @@ export const Projects = () => {
             <Image w="50%" src="https://github-readme-stats.vercel.app/api?username=taruntailor7&count_private=true&show_icons=trueline_height=21&theme=merko" />	
             <Image w="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=taruntailor7&theme=merko"/> 
           </Box>
-          <Box textAlign="center" w="80%" margin="auto" boxShadow="2xl" p="5" borderRadius="10px" mt="10" >
+          {/* <Box textAlign="center" w="80%" margin="auto" boxShadow="2xl" p="5" borderRadius="10px" mt="10" >
             <a target="_black" href="https://github.com/taruntailor7"><Image coloe="white" borderRadius="10px" alt="taruntailor7's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=taruntailor7&custom_title=taruntailor7's%20Contribution%20Graph&theme=merko" /></a>
-          </Box>
+          </Box> */}
         </Box>
     </Box>
   )
