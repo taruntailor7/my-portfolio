@@ -13,6 +13,22 @@ export const Projects = () => {
         </Box>
         <Box w="90%" display={{base:"",sm:"",md:"block",lg:"flex"}} justifyContent="space-between" margin="auto" mt="100px">
           <Box data-aos="fade-right" data-aos-duration="1000" w={{base:"",sm:"",md:"100%",lg:"45%"}} p={5} boxShadow='lg' borderRadius="20px">
+            <Image src="https://user-images.githubusercontent.com/66818449/206433382-bafb748e-0484-451a-ba67-6cd4365b7248.png" alt=""/>
+          </Box>
+          <Box w={{base:"",sm:"",md:"100%",lg:"50%"}} mt={{base:"",sm:"",md:"30px",lg:""}} data-aos="fade-left" data-aos-duration="1000">
+            <Heading>Blog Webiste</Heading>
+            <Text w={{base:"100%",sm:"",md:"70%",lg:"70%"}} mt={7} fontSize="18px">
+            When blogging started, the first blogs were really glorified online journals, and in all likelihood, becoming a professional blogger and making money online wasn't the goal. Since then, the blogosphere has evolved, and now people blog for many different reasons.
+            </Text>
+            <Text mt="5"><b> Tech Stack : Mongo DB, Express JS, React JS, Node JS, HTML, CSS</b></Text>
+            <Box w={{base:"90%",sm:"",md:"65%",lg:"60%"}} mt={10} display="flex" justifyContent="space-between">
+              <a href="https://viniya-blog.netlify.app/" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">Live Link</Button></a>
+              <a href="https://github.com/taruntailor7/react-blog-app" target="blank"><Button bg="#238636" colorScheme="#238636" color="white">GitHub Link</Button></a>
+            </Box>
+          </Box>
+        </Box>
+        <Box w="90%" display={{base:"",sm:"",md:"block",lg:"flex"}} justifyContent="space-between" margin="auto" mt="100px">
+          <Box data-aos="fade-right" data-aos-duration="1000" w={{base:"",sm:"",md:"100%",lg:"45%"}} p={5} boxShadow='lg' borderRadius="20px">
             <Image src={boatImg} alt=""/>
           </Box>
           <Box w={{base:"",sm:"",md:"100%",lg:"50%"}} mt={{base:"",sm:"",md:"30px",lg:""}} data-aos="fade-left" data-aos-duration="1000">
