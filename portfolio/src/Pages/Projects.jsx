@@ -11,6 +11,7 @@ export const Projects = () => {
             <Box marginTop="10px" margin="auto" bg="#f9ce0f" w="50px" h="4px" borderRadius="10px"></Box>
             <Text w={{base:"",sm:"",md:"85%",lg:"50%"}}  margin="auto" mt={7} fontSize="20px">Here you will find some of the personal and clients projects that I created with each project containing its own case study</Text>
         </Box>
+
         <Box w="90%" display={{base:"",sm:"",md:"block",lg:"flex"}} justifyContent="space-between" margin="auto" mt="100px">
           <Box data-aos="fade-right" data-aos-duration="1000" w={{base:"",sm:"",md:"100%",lg:"45%"}} p={5} boxShadow='lg' borderRadius="20px">
             <Image src="https://user-images.githubusercontent.com/66818449/206433382-bafb748e-0484-451a-ba67-6cd4365b7248.png" alt=""/>
@@ -27,6 +28,7 @@ export const Projects = () => {
             </Box>
           </Box>
         </Box>
+
         <Box w="90%" display={{base:"",sm:"",md:"block",lg:"flex"}} justifyContent="space-between" margin="auto" mt="100px">
           <Box data-aos="fade-right" data-aos-duration="1000" w={{base:"",sm:"",md:"100%",lg:"45%"}} p={5} boxShadow='lg' borderRadius="20px">
             <Image src={boatImg} alt=""/>
@@ -43,6 +45,24 @@ export const Projects = () => {
             </Box>
           </Box>
         </Box>
+
+        <Box w="90%" display={{base:"",sm:"",md:"block",lg:"flex"}} justifyContent="space-between" margin="auto" mt="100px">
+          <Box data-aos="fade-right" data-aos-duration="1000" w={{base:"",sm:"",md:"100%",lg:"45%"}} p={5} boxShadow='lg' borderRadius="20px">
+            <Image src="https://user-images.githubusercontent.com/66818449/209303290-4ecebf3c-bd33-43a6-849f-69e2bc323854.png" alt=""/>
+          </Box>
+          <Box w={{base:"",sm:"",md:"100%",lg:"50%"}} mt={{base:"",sm:"",md:"30px",lg:""}} data-aos="fade-left" data-aos-duration="1000">
+            <Heading>WhatsApp Clone (Mini WhatsApp)</Heading>
+            <Text w={{base:"100%",sm:"",md:"70%",lg:"70%"}} mt={7} fontSize="18px">
+              This is WhatsApp Clone (Mini WhatsApp) where user can login via their google account and can search there friends via email and can talk to each other.
+            </Text>
+            <Text mt="5"><b> Tech Stack : Mongo DB, Express JS, React JS, Node JS, HTML, CSS</b></Text>
+            <Box w={{base:"90%",sm:"",md:"65%",lg:"60%"}} mt={10} display="flex" justifyContent="space-between">
+              <a href="https://web-whatsapp-com.netlify.app/" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">Live Link</Button></a>
+              <a href="https://github.com/taruntailor7/WhatsApp-Clone" target="blank"><Button bg="#238636" colorScheme="#238636" color="white">GitHub Link</Button></a>
+            </Box>
+          </Box>
+        </Box>
+
         <Box w="90%" display={{base:"",sm:"",md:"block",lg:"flex"}} justifyContent="space-between" margin="auto" mt="100px">
           <Box w={{base:"",sm:"",md:"100%",lg:"45%"}} data-aos="fade-right" data-aos-duration="1000" p={5} boxShadow='lg' borderRadius="20px">
             <Image src={nifty} alt=""/>
@@ -58,6 +78,7 @@ export const Projects = () => {
             </Box>
           </Box>
         </Box>
+
         <Box w="90%" display={{base:"",sm:"",md:"block",lg:"flex"}} justifyContent="space-between" margin="auto" mt="100px">
           <Box w={{base:"",sm:"",md:"100%",lg:"45%"}} data-aos="fade-right" data-aos-duration="1000" p={5} boxShadow='lg' borderRadius="20px">
             <Image src="https://user-images.githubusercontent.com/66818449/203419256-07d0ce65-a0ed-492f-b990-15f0e37e1bf9.png" alt=""/>
@@ -74,6 +95,23 @@ export const Projects = () => {
             </Box>
           </Box>
         </Box>
+
+        <Box w="90%" display={{base:"",sm:"",md:"block",lg:"flex"}} justifyContent="space-between" margin="auto" mt="100px">
+          <Box w={{base:"",sm:"",md:"100%",lg:"45%"}} data-aos="fade-right" data-aos-duration="1000" p={5} boxShadow='lg' borderRadius="20px">
+            <Image src="https://user-images.githubusercontent.com/66818449/209324727-5608fe07-82ad-402c-b60a-9e34c70f6a72.png" alt=""/>
+          </Box>
+          <Box w={{base:"",sm:"",md:"100%",lg:"50%"}} mt={{base:"",sm:"",md:"30px",lg:""}} data-aos="fade-left" data-aos-duration="1000">
+            <Heading>Fraazo Clone</Heading>
+            <Text w={{base:"100%",sm:"",md:"70%",lg:"70%"}} mt={7} fontSize="18px">Fraazo is one of India's largest quick commerce start-ups on a mission to provide every Indian household farm-fresh fruits and vegetables daily, ordered from the convenience of their homes. We are the first company in India to establish the concept of dark stores in the fruits and vegetable segment.<br />
+            </Text>
+            <Text mt="5"><b> Tech Stack : HTML, CSS, Vanilla Javascript.</b></Text>
+            <Box w={{base:"90%",sm:"",md:"65%",lg:"60%"}} mt={10} display="flex" justifyContent="space-between">
+              <a href="https://fraazo-clone-e-commerce.netlify.app/" target="blank"><Button bg="#facf0f" colorScheme="#facf0f" color="black">Live Link</Button></a>
+              <a href="https://github.com/taruntailor7/fraazo-clone" target="blank"><Button bg="#238636" colorScheme="#238636" color="white">GitHub Link</Button></a>
+            </Box>
+          </Box>
+        </Box>
+        
         <Box textAlign="center" mt="60px" data-aos="zoom-in-up" data-aos-duration="2000">
           <Heading mb={10}>GITHUB</Heading>
           <Box w="80%" display="flex" justifyContent="space-evenly" textAlign="center" margin="auto" boxShadow="2xl" p="5" borderRadius="10px">
